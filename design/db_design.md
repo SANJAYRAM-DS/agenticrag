@@ -1,3 +1,6 @@
+# Database ER Diagram
+
+```mermaid
 erDiagram
 
     USERS ||--o{ TASKS : owns
@@ -240,3 +243,4 @@ erDiagram
         TEXT status
         TIMESTAMPTZ expires_at
     }
+```
